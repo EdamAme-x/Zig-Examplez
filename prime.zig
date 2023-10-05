@@ -1,3 +1,4 @@
+// prime.zig
 fn isPrime(number: u16) bool {
     var i: u16 = 2;
     while (i < number) : (i += 1) {
