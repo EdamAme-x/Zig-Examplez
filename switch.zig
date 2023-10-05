@@ -8,7 +8,7 @@ pub fn main() void {
     const c: u8 = 3;
 
     const d = switch (a + b) {
-        1 => 1z,
+        1 => 1,
         2 => 2,
         c => 3,
         else => 0,
