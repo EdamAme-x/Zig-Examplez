@@ -15,11 +15,11 @@ pub fn main() void {
 
     var i: u16 = 3;
 
-    var arrays = [_]u16{2};
+    var primes = [_]u16{2};
 
     while (i < max) : (i += 1) {
         if (isPrime(i)) {
-            arrays[arrays.len - 1] = i;
+            primes[primes.len - 1] = i;
             std.debug.print("{d}\n", .{arrays[arrays.len - 1]});
         }
     }
