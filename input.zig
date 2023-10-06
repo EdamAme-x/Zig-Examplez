@@ -16,4 +16,5 @@ pub fn main() !void {
     try stdin.reader().streamUntilDelimiter(input.writer(), '\n', 1024);
 
     std.debug.print("input a string: {s}\n", .{input.items});
+
 }
